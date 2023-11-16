@@ -1,0 +1,13 @@
+// text-input.component.scss
+ion-item {
+  --ion-color-base: #fff; // Helle Fläche
+}
+
+ion-input {
+  --color: #000; // Dunkler Text
+}
+
+ion-segment {
+  --background: #000; // Dunkle Fläche
+  --color: #fff; // Heller Text
+}

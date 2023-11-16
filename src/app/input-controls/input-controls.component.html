@@ -1,0 +1,17 @@
+
+<ion-input [(ngModel)]="text" placeholder="Enter text"></ion-input>
+
+<ion-range min="0" max="10" [(ngModel)]="rangeValue">
+  <ion-label slot="start">0</ion-label>
+  <ion-label slot="end">10</ion-label>
+</ion-range>
+
+<ion-select [(ngModel)]="color" (ionChange)="presentToast()">
+  <ion-select-option value="red">Red</ion-select-option>
+  <ion-select-option value="green">Green</ion-select-option>
+  <ion-select-option value="blue">Blue</ion-select-option>
+</ion-select>
+
+<p>{{text}}</p>
+<p>{{rangeValue}}</p>
+<p>{{color}}</p>
